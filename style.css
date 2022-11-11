@@ -97,3 +97,12 @@ footer nav div{
 .oo:hover{
     color: rgb(30, 119, 30);
 }
+
+#drop{
+    border: none;
+    background-color: cadetblue;
+}
+
+select option{
+    background-color: rgb(146, 176, 177);
+}
