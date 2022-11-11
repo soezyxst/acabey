@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: fit-content;
+    background-color: rgb(206, 230, 228);
+}
+
+.top-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    height: 65px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    font-size: 16px;
+}
+
+.ii:hover{
+    color: rgb(53, 78, 63);
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#logo{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+#logo:hover{
+    transform: rotate(-2deg);
+    cursor: pointer;
+}
+
+.ic{
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+#nav-i{
+    padding-right: 75px;
+    display: block;
+}
+
+i:hover{
+    font-size: 105%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 70px;
+}
+
+footer nav{
+    width: 100%;
+    position: absolute;
+    height: fit-content;
+    background-color: rgb(190, 218, 219);
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 400px;
+    padding: 30px;
+}
+
+ol li a{
+    font-size: 16px;
+}
+
+ol li{
+    padding-top: 0;
+}
+
+footer nav div{
+    margin: 30px;
+}
+
+.oo:hover{
+    color: rgb(30, 119, 30);
+}
