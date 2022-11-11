@@ -18,7 +18,7 @@
           <a href="#" id="logo" style="text-decoration: none; color: black"
             ><h1>Logo</h1></a
           >
-          <select name="apa">
+          <select onclick="apa()" name="apa" id="drop">
             <option><a href="#" class="ii">Home</a></option>
             <option><a href="" class="ii">About</a></option>
             <option><a href="" class="ii">Contact</a></option>
@@ -98,6 +98,11 @@
         </div>
       </nav>
     </footer>
-
+    <script>
+        let ini = document.getElementById('drop')
+        function apa() {
+            console.log(ini.value)
+        }
+    </script>
   </body>
 </html>
