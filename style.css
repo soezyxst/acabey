@@ -17,7 +17,7 @@ body{
     background-color: cadetblue;
     height: 65px;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 nav ul{
